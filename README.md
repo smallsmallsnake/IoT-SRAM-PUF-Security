@@ -44,10 +44,7 @@ The project is organized into the following directories:
     ```
 
 2. Set up the environment:
-    - Ensure you have Python and the required libraries installed. You can install the required libraries using:
-      ```sh
-      pip install -r requirements.txt
-      ```
+    - Ensure you have Python and the required libraries installed. 
 
 3. Additional steps for setting up the STM32F407ZGT6 microcontroller:
     - Follow the instructions in the `code/data acquisition` folder to set up and program the microcontroller.
