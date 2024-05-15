@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yuting zhang, individual, LIC=03C6R-KIFUM-NNXAF-6Q0QQ-A4NUX-H2SUI
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.36.0.0
+Toolchain Path:  D:\MDK\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+C:\Users\zhang\Desktop\onebeifen\one\Projects\MDK-ARM\atk_f407.uvprojx
+Project File Date:  12/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'D:\MDK\ARM\ARMCLANG\Bin'
+Rebuild target 'Template'
+compiling delay.c...
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_it.c...
+compiling system_stm32f4xx.c...
+compiling sys.c...
+compiling usart.c...
+compiling main.c...
+compiling aes.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma.c...
+../../Drivers/SYSTEM/bch/bch.c(542): warning: array index 3 is past the end of the array (which contains 2 elements) [-Warray-bounds]
+        e3 = poly->c[3];
+             ^       ~
+../../Drivers/SYSTEM/bch/bch.c(71): note: array 'c' declared here
+    unsigned int c[2];
+    ^
+../../Drivers/SYSTEM/bch/bch.c(545): warning: array index 2 is past the end of the array (which contains 2 elements) [-Warray-bounds]
+        a2 = gf_div(bch, poly->c[2], e3);
+                         ^       ~
+../../Drivers/SYSTEM/bch/bch.c(71): note: array 'c' declared here
+    unsigned int c[2];
+    ^
+../../Drivers/SYSTEM/bch/bch.c(569): warning: array index 4 is past the end of the array (which contains 2 elements) [-Warray-bounds]
+    e4 = poly->c[4];
+         ^       ~
+../../Drivers/SYSTEM/bch/bch.c(71): note: array 'c' declared here
+    unsigned int c[2];
+    ^
+../../Drivers/SYSTEM/bch/bch.c(572): warning: array index 2 is past the end of the array (which contains 2 elements) [-Warray-bounds]
+    b  = gf_div(bch, poly->c[2], e4);
+                     ^       ~
+../../Drivers/SYSTEM/bch/bch.c(71): note: array 'c' declared here
+    unsigned int c[2];
+    ^
+../../Drivers/SYSTEM/bch/bch.c(573): warning: array index 3 is past the end of the array (which contains 2 elements) [-Warray-bounds]
+    a  = gf_div(bch, poly->c[3], e4);
+                     ^       ~
+../../Drivers/SYSTEM/bch/bch.c(71): note: array 'c' declared here
+    unsigned int c[2];
+    ^
+5 warnings generated.
+compiling bch.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_usart.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_uart.c...
+compiling timer.c...
+compiling key.c...
+compiling led.c...
+compiling stm32f4xx_hal_tim_ex.c...
+compiling stm32f4xx_hal_tim.c...
+linking...
+Program Size: Code=8026 RO-data=490 RW-data=16 ZI-data=13704  
+FromELF: creating hex file...
+"..\..\Output\atk_f407.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:\MDK\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:07
+</pre>
+</body>
+</html>
